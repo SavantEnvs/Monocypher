@@ -1,0 +1,8 @@
+project: savantenvs/Monocypher
+target: fuzz-eddsa
+duration: 1200
+
+cmds:
+  - cmd: /mayhem/fuzz_eddsa
+    libfuzzer: true
+    timeout: 5

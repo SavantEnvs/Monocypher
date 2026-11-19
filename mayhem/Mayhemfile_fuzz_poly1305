@@ -1,0 +1,8 @@
+project: savantenvs/Monocypher
+target: fuzz-poly1305
+duration: 1200
+
+cmds:
+  - cmd: /mayhem/fuzz_poly1305
+    libfuzzer: true
+    timeout: 5

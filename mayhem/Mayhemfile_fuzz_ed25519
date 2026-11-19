@@ -1,0 +1,8 @@
+project: savantenvs/Monocypher
+target: fuzz-ed25519
+duration: 1200
+
+cmds:
+  - cmd: /mayhem/fuzz_ed25519
+    libfuzzer: true
+    timeout: 5
